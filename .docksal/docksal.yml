@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  web:
+    labels:
+      - io.docksal.virtual-host=portalshop.local,portalshop.local,*.portalshop.local
+  cli:
+    extra_hosts:
+      - "www.portalshop.local:127.0.0.1"
+      - "portalshop.local:127.0.0.1"
