@@ -1,0 +1,13 @@
+.page {
+  font: 18px/1.4 'Roboto', sans-serf;
+  color: #373737; }
+
+main, .region-highlighted {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.page-title {
+  text-align: center; }
+
+/*# sourceMappingURL=global.css.map */

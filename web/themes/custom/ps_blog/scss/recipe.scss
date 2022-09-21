@@ -1,0 +1,79 @@
+@import "variables";
+@import "mixin";
+
+.node--recipe{
+  .field__label{
+    font-size: 25px;
+    margin-bottom: $gutterM;
+  }
+  &-full{
+    .node__content{
+      display: flex;
+      flex-flow: row wrap;
+
+      & > *{
+        width: 100%;
+      }
+      .field--name-field-time-for-preparing, .field--name-field-difficulty{
+        width: 50%;
+        margin-bottom: $gutterM;
+      }
+      .field--name-field-category-recipe .field__item, .field--name-field-tags{
+        margin-bottom: $gutterM;
+        display: flex;
+        justify-content: center;
+        a{
+          margin: 0 10px;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: $gray;
+          &:hover{
+            color:$blue
+          }
+        }
+      }
+      .field--name-field-ingredients{
+        margin-bottom: $gutterM;
+        .field__items{
+          .field__item{
+            position: relative;
+            margin-bottom: $gutterS;
+            padding-left: 30px;
+            &:last-child{
+              margin-bottom: 0;
+            }
+            &:before{
+              position: absolute;
+              content: "";
+              left: 0;
+              top: 4px;
+              border: 2px solid $gray;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+            }
+            &:hover{
+              &:before{
+                border-color: $blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-teaser{
+      .layout__region--content{
+        display: flex;
+        flex-flow: row wrap;
+
+        & > *{
+          width: 100%;
+          &:nth-child(2), &:nth-child(3){
+            width: 50%;
+            margin-bottom: $gutterS;
+          }
+        }
+      }
+  }
+}

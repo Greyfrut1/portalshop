@@ -1,0 +1,22 @@
+nav.navigation {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px 10px 10px; }
+  nav.navigation .menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    nav.navigation .menu li {
+      margin-right: 20px; }
+      nav.navigation .menu li:last-child {
+        margin-right: 0; }
+    nav.navigation .menu a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #828282; }
+      nav.navigation .menu a:hover, nav.navigation .menu a.is-active {
+        color: #4c84be; }
+
+/*# sourceMappingURL=menus.css.map */

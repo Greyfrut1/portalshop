@@ -1,0 +1,51 @@
+.node--recipe .field__label {
+  font-size: 25px;
+  margin-bottom: 20px; }
+.node--recipe-full .node__content {
+  display: flex;
+  flex-flow: row wrap; }
+  .node--recipe-full .node__content > * {
+    width: 100%; }
+  .node--recipe-full .node__content .field--name-field-time-for-preparing, .node--recipe-full .node__content .field--name-field-difficulty {
+    width: 50%;
+    margin-bottom: 20px; }
+  .node--recipe-full .node__content .field--name-field-category-recipe .field__item, .node--recipe-full .node__content .field--name-field-tags {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; }
+    .node--recipe-full .node__content .field--name-field-category-recipe .field__item a, .node--recipe-full .node__content .field--name-field-tags a {
+      margin: 0 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #828282; }
+      .node--recipe-full .node__content .field--name-field-category-recipe .field__item a:hover, .node--recipe-full .node__content .field--name-field-tags a:hover {
+        color: #4c84be; }
+  .node--recipe-full .node__content .field--name-field-ingredients {
+    margin-bottom: 20px; }
+    .node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 30px; }
+      .node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:last-child {
+        margin-bottom: 0; }
+      .node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 4px;
+        border: 2px solid #828282;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%; }
+      .node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:hover:before {
+        border-color: #4c84be; }
+.node--recipe-teaser .layout__region--content {
+  display: flex;
+  flex-flow: row wrap; }
+  .node--recipe-teaser .layout__region--content > * {
+    width: 100%; }
+    .node--recipe-teaser .layout__region--content > *:nth-child(2), .node--recipe-teaser .layout__region--content > *:nth-child(3) {
+      width: 50%;
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=recipe.css.map */

@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixin";
+
+.node{
+  .field--name-field{
+    margin-bottom: $gutterM;
+  }
+  .field--name-field-image{
+    img{
+      margin: 0 auto;
+      display: block;
+      margin-bottom: $gutterM;
+    }
+  }
+  .field--name-title{
+    margin-bottom: $gutterS;
+    display: block;
+    a{
+      text-decoration: none;
+      color: $gray;
+    }
+  }
+}
+.view-recipe-term{
+  .view-content{
+    display: grid;
+    grid-gap: $gutterM;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,13 @@
+.main-content {
+  display: flex;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.layout-one-sidebar .main-content > main {
+  width: calc( 100% - (30px + 350px)); }
+.layout-one-sidebar .main-content > aside {
+  max-width: 350px;
+  margin-left: 30px; }
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,10 @@
+@import "variables";
+@import "mixin";
+
+.view-also-read{
+  .view-content{
+    display: grid;
+    grid-gap: $gutter;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,75 @@
+@import "variables";
+@import "mixin";
+.node--article{
+  .field--name-field{
+    margin-bottom: $gutterM;
+  }
+  .field--name-field-images{
+     img{
+       margin: 0 auto;
+       display: block;
+       margin-bottom: $gutterM;
+     }
+  }
+  .field--name-field-category .field__item, .field--name-field-tags{
+    margin-bottom: $gutterM;
+    display: flex;
+    justify-content: center;
+    a{
+      margin: 0 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $gray;
+      &:hover{
+        color:$blue
+      }
+  }
+  }
+  .field--name-field-media-oembed-video{
+    iframe{
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 0px;
+      display: block;
+      height: 500px;
+      margin-bottom: $gutterM;
+    }
+  }
+  &-teaser{
+    margin-bottom: $gutterS;
+    .field--name-title{
+      margin-bottom: $gutterS;
+      display: block;
+      a{
+        text-decoration: none;
+        color: $gray;
+      }
+    }
+    .layout__region--content{
+      @include clearfix;
+      & > div{
+        &:first-child{
+          float: left;
+          width: 200px;
+          margin-right: $gutterM;
+        }
+        &:not(:first-child){
+          float: right;
+          width: calc( 100% - 200px - #{$gutterM});
+        }
+      }
+    }
+  }
+  &-short{
+    margin-bottom: $gutterM;
+    .field--name-title{
+      margin-bottom: $gutterS;
+      display: block;
+      a{
+        text-decoration: none;
+        color: $gray;
+      }
+    }
+  }
+}
+

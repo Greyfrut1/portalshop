@@ -1,0 +1,19 @@
+.node .field--name-field {
+  margin-bottom: 20px; }
+.node .field--name-field-image img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px; }
+.node .field--name-title {
+  margin-bottom: 10px;
+  display: block; }
+  .node .field--name-title a {
+    text-decoration: none;
+    color: #828282; }
+
+.view-recipe-term .view-content {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr); }
+
+/*# sourceMappingURL=node.css.map */

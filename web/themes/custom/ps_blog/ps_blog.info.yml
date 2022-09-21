@@ -1,0 +1,20 @@
+name: "Portal Shop"
+type: theme
+core_version_requirement: 9.x
+base theme: classy
+
+libraries:
+  - ps_blog/global
+  - ps_blog/ps_portal
+
+stylesheets-remove:
+  - '@classy/css/components/menu.css'
+  - '@classy/css/components/pager.css'
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

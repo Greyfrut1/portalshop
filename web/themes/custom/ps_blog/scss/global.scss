@@ -1,0 +1,13 @@
+@import "variables";
+.page{
+  font: 18px/1.4 'Roboto', sans-serf;
+  color: $black;
+}
+main, .region-highlighted{
+  max-width: $desktop;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.page-title{
+  text-align: center;
+}
