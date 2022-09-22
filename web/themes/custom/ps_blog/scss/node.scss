@@ -20,6 +20,22 @@
       color: $gray;
     }
   }
+  &--view-mode{
+    &-short{
+      .layout__region--content{
+        display: flex;
+        align-items: center;
+        & > div{
+          margin-right: $gutterS;
+        }
+        .field--name-field-image, .field--name-field-images{
+          img{
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 .view-recipe-term{
   .view-content{

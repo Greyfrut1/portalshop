@@ -10,6 +10,13 @@
   .node .field--name-title a {
     text-decoration: none;
     color: #828282; }
+.node--view-mode-short .layout__region--content {
+  display: flex;
+  align-items: center; }
+  .node--view-mode-short .layout__region--content > div {
+    margin-right: 10px; }
+  .node--view-mode-short .layout__region--content .field--name-field-image img, .node--view-mode-short .layout__region--content .field--name-field-images img {
+    border-radius: 10px; }
 
 .view-recipe-term .view-content {
   display: grid;

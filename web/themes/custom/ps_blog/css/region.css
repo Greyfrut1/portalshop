@@ -1,9 +1,6 @@
 .region > .block {
   margin-bottom: 30px; }
 
-.region-primary-menu {
-  border-bottom: 3px solid #828282; }
-
 .region-header {
   max-width: 960px;
   padding: 30px 10px 0 10px;

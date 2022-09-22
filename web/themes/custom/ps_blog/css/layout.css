@@ -2,11 +2,16 @@
   display: flex;
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 10px; }
+  padding: 0 60px; }
   .main-content > main {
     flex: 1; }
   .main-content aside {
-    max-width: 350px;
+    width: 350px;
     margin-left: 30px; }
+
+.grid-view-2-col .view-content {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr); }
 
 /*# sourceMappingURL=layout.css.map */

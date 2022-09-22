@@ -10,4 +10,8 @@ main, .region-highlighted {
 .page-title {
   text-align: center; }
 
+.main-content {
+  border-top: 3px solid #828282;
+  padding-top: 30px !important; }
+
 /*# sourceMappingURL=global.css.map */

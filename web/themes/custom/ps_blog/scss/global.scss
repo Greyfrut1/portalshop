@@ -11,3 +11,7 @@ main, .region-highlighted{
 .page-title{
   text-align: center;
 }
+.main-content{
+  border-top: 3px solid $gray;
+  padding-top: $gutter !important;
+}

@@ -47,5 +47,18 @@
     .node--recipe-teaser .layout__region--content > *:nth-child(2), .node--recipe-teaser .layout__region--content > *:nth-child(3) {
       width: 50%;
       margin-bottom: 10px; }
+.node--recipe-block .layout__region--content {
+  position: relative; }
+  .node--recipe-block .layout__region--content img {
+    border-radius: 10px; }
+  .node--recipe-block .layout__region--content > div:last-child {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center; }
+    .node--recipe-block .layout__region--content > div:last-child a {
+      font-size: 27px;
+      color: #fff;
+      text-shadow: 0 3px 2px #969696; }
 
 /*# sourceMappingURL=recipe.css.map */
