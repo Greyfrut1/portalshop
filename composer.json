@@ -15,20 +15,27 @@
         }
     ],
     "require": {
+        "commerceguys/intl": "dev-master",
         "composer/installers": "^1.9",
+        "drupal/address": "^1.11",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/commerce": "^2.31",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/entity": "^1.4",
+        "drupal/inline_entity_form": "^1.0-rc6",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
+        "drupal/profile": "^1.4",
         "drupal/redirect": "^1.8",
+        "drupal/state_machine": "^1.6",
         "drupal/taxonomy_menu": "^3.5"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
@@ -40,6 +47,11 @@
         "sort-packages": true
     },
     "extra": {
+        "patches" : {
+            "drupal/commerce" : {
+                "Support for Layout Builder module" : "https://www.drupal.org/files/issues/2019-12-26/commerce-layout-builder-fixes-2952529-70.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
