@@ -15,6 +15,8 @@ global:
       css/node.css: {}
       css/layout.css: {}
       css/media.css: {}
+      css/commerce.css: {}
+      css/form.css: {}
 ps_portal:
   css:
     component:

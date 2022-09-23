@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixin";
+
+form{
+  .form-item, .form-actions{
+    margin-top: $gutterS;
+    margin-bottom: $gutterS;
+  }
+  input{
+    height: 40px;
+    &[type="submit"]{
+      border: 1px solid $blue;
+      background-color: $white;
+      text-align: center;
+      padding: 0 $gutterS;
+    }
+  }
+  .form-item{
+    input{
+      border: 1px solid $gray;
+      padding: 0 10px;
+    }
+  }
+  .form-actions{
+    input{
+      border: 1px solid $blue;
+      background-color: $white;
+      text-align: center;
+      min-width: 100px;
+      padding: 0 $gutter;
+    }
+  }
+}

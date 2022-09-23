@@ -1,0 +1,110 @@
+@import "variables";
+@import "mixin";
+
+.commerce--recipe-teaser{
+  position: relative;
+  .field--name-title{
+    margin-bottom: 0;
+  }
+  .field--name-variations{
+    position: absolute;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 20px;
+    background-color: $white;
+    color: $blue;
+    border: 1px solid $gray;
+  }
+  margin-bottom: $gutter;
+}
+.view-recipe{
+  .view-content{
+    .views-row{
+      .commerce--recipe-teaser{
+        margin-bottom: 25px;
+      }
+      width: 640px;
+      margin: 0 auto;
+      border-bottom: 1px solid $blue;
+      margin-bottom: $gutter;
+      &:last-child{
+        border-bottom: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.commerce--recipe-full{
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  & > .layout{
+    margin-bottom: $gutterM;
+  }
+  .layout--twocol-section--50-50{
+    .layout__region{
+      &--first{
+        padding-right: 15px;
+      }
+      &--second{
+        padding-left: 15px;
+      }
+    }
+  }
+  .field--name-price{
+    margin-top: $gutterM;
+    .field__label{
+      color: $blue;
+      padding-top: 2px;
+    }
+    .field__item{
+      font-size: 20px;
+    }
+  }
+}
+.views-view-table{
+  thead{
+    border-bottom: 2px solid $blue;
+    th{
+      padding: 10px 20px;
+      color: $blue;
+    }
+  }
+  tbody{
+    td{
+    }
+  }
+}
+.view-commerce-cart-form{
+  form{
+    max-width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    .form-type-number{
+      input{
+        text-align: center;
+        padding-right: 0;
+      }
+    }
+    .form-actions{
+      text-align: center;
+    }
+  }
+  .views-field-purchased-entity{
+    padding-right: $gutterS;
+  }
+  .views-field-total-price__number, .views-field-unit-price__number{
+    text-align: center;
+  }
+  table{
+    border-bottom: 2px solid $blue;
+    margin-bottom: $gutterM;
+    margin-top: $gutterS;
+  }
+}
+.order-total-line{
+  &-label{
+    color: $blue;
+  }
+}

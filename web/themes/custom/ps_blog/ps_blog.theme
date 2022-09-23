@@ -13,3 +13,10 @@ function ps_blog_preprocess_html(&$variables) {
     $variables['attributes']['class'][] = 'layout-no-sidebar';
   }
 }
+
+function ps_blog_preprocess_commerce_product(&$variables){
+  /** @var \Drupal\commerce_product\Entity\Product $product */
+  $product = $variables['elements']['#commerce_product'];
+  $variables['product_type'] = $product->bundle();
+  $variables['view_mode'] = $variables['elements']['#view_mode'];
+}

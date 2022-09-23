@@ -1,0 +1,70 @@
+.commerce--recipe-teaser {
+  position: relative;
+  margin-bottom: 30px; }
+  .commerce--recipe-teaser .field--name-title {
+    margin-bottom: 0; }
+  .commerce--recipe-teaser .field--name-variations {
+    position: absolute;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #4c84be;
+    border: 1px solid #828282; }
+
+.view-recipe .view-content .views-row {
+  width: 640px;
+  margin: 0 auto;
+  border-bottom: 1px solid #4c84be;
+  margin-bottom: 30px; }
+  .view-recipe .view-content .views-row .commerce--recipe-teaser {
+    margin-bottom: 25px; }
+  .view-recipe .view-content .views-row:last-child {
+    border-bottom: 0;
+    margin-bottom: 0; }
+
+.commerce--recipe-full img {
+  max-width: 100%;
+  height: auto; }
+.commerce--recipe-full > .layout {
+  margin-bottom: 20px; }
+.commerce--recipe-full .layout--twocol-section--50-50 .layout__region--first {
+  padding-right: 15px; }
+.commerce--recipe-full .layout--twocol-section--50-50 .layout__region--second {
+  padding-left: 15px; }
+.commerce--recipe-full .field--name-price {
+  margin-top: 20px; }
+  .commerce--recipe-full .field--name-price .field__label {
+    color: #4c84be;
+    padding-top: 2px; }
+  .commerce--recipe-full .field--name-price .field__item {
+    font-size: 20px; }
+
+.views-view-table thead {
+  border-bottom: 2px solid #4c84be; }
+  .views-view-table thead th {
+    padding: 10px 20px;
+    color: #4c84be; }
+
+.view-commerce-cart-form form {
+  max-width: max-content;
+  margin: 0 auto;
+  text-align: center; }
+  .view-commerce-cart-form form .form-type-number input {
+    text-align: center;
+    padding-right: 0; }
+  .view-commerce-cart-form form .form-actions {
+    text-align: center; }
+.view-commerce-cart-form .views-field-purchased-entity {
+  padding-right: 10px; }
+.view-commerce-cart-form .views-field-total-price__number, .view-commerce-cart-form .views-field-unit-price__number {
+  text-align: center; }
+.view-commerce-cart-form table {
+  border-bottom: 2px solid #4c84be;
+  margin-bottom: 20px;
+  margin-top: 10px; }
+
+.order-total-line-label {
+  color: #4c84be; }
+
+/*# sourceMappingURL=commerce.css.map */
