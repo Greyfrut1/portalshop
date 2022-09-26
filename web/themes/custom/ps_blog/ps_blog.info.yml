@@ -10,6 +10,7 @@ libraries:
 stylesheets-remove:
   - '@classy/css/components/menu.css'
   - '@classy/css/components/pager.css'
+  - '@commerce_checkout/css/commerce_checkout.form.css'
 
 regions:
   header: Header

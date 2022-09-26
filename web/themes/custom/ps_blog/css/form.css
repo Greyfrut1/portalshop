@@ -1,6 +1,13 @@
 form .form-item, form .form-actions {
   margin-top: 10px;
   margin-bottom: 10px; }
+form select {
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #4c84be;
+  padding: 0 20px; }
+form .form-type-select label {
+  display: block; }
 form input {
   height: 40px; }
   form input[type="submit"] {
@@ -17,5 +24,19 @@ form .form-actions input {
   text-align: center;
   min-width: 100px;
   padding: 0 30px; }
+form label {
+  color: #4c84be;
+  font-size: 14px; }
+form .form-type-radio label, form .form-type-checkbox label {
+  color: #373737; }
+form .form-type-radio input, form .form-type-checkbox input {
+  height: inherit; }
+form fieldset {
+  border-color: #4c84be; }
+  form fieldset legend {
+    color: #4c84be; }
+    form fieldset legend a {
+      color: #828282;
+      font-size: 14px; }
 
 /*# sourceMappingURL=form.css.map */

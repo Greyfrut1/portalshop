@@ -15,4 +15,7 @@ main, .region-highlighted{
   border-top: 3px solid $gray;
   padding-top: $gutter !important;
 }
-
+img{
+  width: 100%;
+  height: auto;
+}

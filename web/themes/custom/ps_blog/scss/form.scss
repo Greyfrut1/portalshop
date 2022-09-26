@@ -6,6 +6,17 @@ form{
     margin-top: $gutterS;
     margin-bottom: $gutterS;
   }
+  select{
+    height: 40px;
+    background-color: $white;
+    border: 1px solid $blue;
+    padding: 0 $gutterM;
+  }
+  .form-type-select{
+    label{
+      display: block;
+    }
+  }
   input{
     height: 40px;
     &[type="submit"]{
@@ -28,6 +39,28 @@ form{
       text-align: center;
       min-width: 100px;
       padding: 0 $gutter;
+    }
+  }
+  label{
+    color: $blue;
+    font-size: 14px;
+  }
+  .form-type-radio, .form-type-checkbox{
+    label{
+      color: $black;
+    }
+    input{
+      height: inherit;
+    }
+  }
+  fieldset{
+    border-color: $blue;
+    legend{
+      color: $blue;
+      a{
+        color: $gray;
+        font-size: 14px;
+      }
     }
   }
 }

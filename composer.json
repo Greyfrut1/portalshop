@@ -19,6 +19,7 @@
         "composer/installers": "^1.9",
         "drupal/address": "^1.11",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/color_field": "^2.5",
         "drupal/commerce": "^2.31",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",

@@ -14,4 +14,8 @@ main, .region-highlighted {
   border-top: 3px solid #828282;
   padding-top: 30px !important; }
 
+img {
+  width: 100%;
+  height: auto; }
+
 /*# sourceMappingURL=global.css.map */
