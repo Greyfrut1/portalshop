@@ -1,0 +1,47 @@
+.block-facets-summary > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .block-facets-summary > ul a {
+    color: #373737; }
+    .block-facets-summary > ul a:hover {
+      color: #4c84be; }
+  .block-facets-summary > ul .facets-summary-item--clear a {
+    border: 1px solid #4c84be;
+    text-align: center;
+    width: 100%;
+    color: #4c84be;
+    display: block;
+    padding: 2px 10px;
+    text-decoration: none; }
+
+#views-exposed-form-index-product-page-1 {
+  margin-bottom: 30px; }
+  #views-exposed-form-index-product-page-1 .form--inline {
+    display: flex;
+    align-items: flex-end; }
+
+.block-facets .facets-widget-checkbox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+.block-facets .facets-widget-checkbox li {
+  margin-bottom: 5px; }
+  .block-facets .facets-widget-checkbox li:last-child {
+    margin-bottom: 0; }
+.block-facets .facets-widget-checkbox input {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px; }
+.block-facets .facets-widget-checkbox label {
+  cursor: pointer; }
+  .block-facets .facets-widget-checkbox label:hover {
+    color: #4c84be; }
+.block-facets .facets-widget-range_slider {
+  margin-bottom: 30px; }
+  .block-facets .facets-widget-range_slider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+
+/*# sourceMappingURL=facets.css.map */

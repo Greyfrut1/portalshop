@@ -55,7 +55,8 @@
         "patches" : {
             "drupal/commerce" : {
                 "Support for Layout Builder module" : "https://www.drupal.org/files/issues/2019-12-26/commerce-layout-builder-fixes-2952529-70.patch"
-            }
+            },
+
         },
         "drupal-scaffold": {
             "locations": {

@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "svelte-range-slider-pips": "^2.0.3"
+  }
+}
