@@ -28,7 +28,7 @@
   'commerce',
   'commerce--' ~ product_type|clean_class,
   'commerce--' ~ product_type|clean_class ~ '-' ~ view_mode|clean_class,
-  view_mode ? 'ncommerce--view-mode-' ~ view_mode|clean_class
+  view_mode ? 'commerce--view-mode-' ~ view_mode|clean_class
 ]
 %}
 <article{{ attributes.addClass(classes) }}>

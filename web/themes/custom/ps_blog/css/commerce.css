@@ -140,9 +140,95 @@
 
 .commerce--season-ticket-teaser .field--name-price {
   display: none; }
-.commerce--season-ticket-teaser .field--name-title {
+
+.commerce--view-mode-teaser .field--name-title {
   text-align: center; }
-  .commerce--season-ticket-teaser .field--name-title a {
+  .commerce--view-mode-teaser .field--name-title a {
+    font-size: 20px;
+    color: #4c84be;
+    text-decoration: none; }
+
+.commerce--clothes-full img {
+  max-width: none; }
+.commerce--clothes-full .layout--twocol-section--67-33 .layout__region--first {
+  padding-right: 15px; }
+.commerce--clothes-full .layout--twocol-section--67-33 .layout__region--second {
+  padding-left: 15px; }
+.commerce--clothes-full .field--name-field-images {
+  margin-bottom: 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr); }
+.commerce--clothes-full .field--name-title {
+  color: #4c84be;
+  font-size: 24px;
+  margin-bottom: 10px; }
+.commerce--clothes-full .field--name-sku {
+  margin-bottom: 10px; }
+.commerce--clothes-full .field--name-quantity label {
+  display: block;
+  margin-bottom: 5px; }
+.commerce--clothes-full .field--name-quantity input {
+  width: 100%;
+  border: 1px solid #4c84be; }
+.commerce--clothes-full .field--name-field-color {
+  line-height: 0; }
+.commerce--clothes-full .product--rendered-attribute__selected ~ label.option {
+  border-color: #4c84be; }
+.commerce--clothes-full .field--name-purchased-entity select {
+  width: 100%; }
+.commerce--clothes-full .field--name-purchased-entity label {
+  margin-bottom: 5px; }
+.commerce--clothes-full .field--name-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; }
+  .commerce--clothes-full .field--name-price .field__label {
+    color: #4c84be;
+    margin-right: 20px; }
+  .commerce--clothes-full .field--name-price .field__item {
     font-size: 20px; }
+.commerce--clothes-full .field--name-field-commerce-discount,
+.commerce--clothes-full .field--name-field-commerce-cover,
+.commerce--clothes-full .field--name-field-commerce-clothes,
+.commerce--clothes-full .field--name-field-commerce-for-who,
+.commerce--clothes-full .field--name-field-commerce-collection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+  .commerce--clothes-full .field--name-field-commerce-discount .field__label,
+  .commerce--clothes-full .field--name-field-commerce-cover .field__label,
+  .commerce--clothes-full .field--name-field-commerce-clothes .field__label,
+  .commerce--clothes-full .field--name-field-commerce-for-who .field__label,
+  .commerce--clothes-full .field--name-field-commerce-collection .field__label {
+    color: #4c84be;
+    font-weight: normal;
+    margin-right: 10px;
+    position: relative; }
+    .commerce--clothes-full .field--name-field-commerce-discount .field__label:before,
+    .commerce--clothes-full .field--name-field-commerce-cover .field__label:before,
+    .commerce--clothes-full .field--name-field-commerce-clothes .field__label:before,
+    .commerce--clothes-full .field--name-field-commerce-for-who .field__label:before,
+    .commerce--clothes-full .field--name-field-commerce-collection .field__label:before {
+      position: absolute;
+      content: ":";
+      right: -6px;
+      top: calc(50% - 12px); }
+  .commerce--clothes-full .field--name-field-commerce-discount .field__item,
+  .commerce--clothes-full .field--name-field-commerce-cover .field__item,
+  .commerce--clothes-full .field--name-field-commerce-clothes .field__item,
+  .commerce--clothes-full .field--name-field-commerce-for-who .field__item,
+  .commerce--clothes-full .field--name-field-commerce-collection .field__item {
+    font-size: 14px; }
+    .commerce--clothes-full .field--name-field-commerce-discount .field__item a,
+    .commerce--clothes-full .field--name-field-commerce-cover .field__item a,
+    .commerce--clothes-full .field--name-field-commerce-clothes .field__item a,
+    .commerce--clothes-full .field--name-field-commerce-for-who .field__item a,
+    .commerce--clothes-full .field--name-field-commerce-collection .field__item a {
+      color: #373737;
+      text-decoration: none; }
+
+.commerce--clothes-teaser img {
+  max-width: none; }
 
 /*# sourceMappingURL=commerce.css.map */

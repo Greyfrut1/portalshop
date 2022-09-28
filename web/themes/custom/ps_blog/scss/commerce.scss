@@ -220,10 +220,112 @@ clear: both;
   .field--name-price{
     display: none;
   }
+}
+.commerce--view-mode-teaser{
   .field--name-title{
     text-align: center;
     a{
       font-size: 20px;
+      color: $blue;
+      text-decoration: none;
     }
+  }
+}
+.commerce--clothes-full{
+  img{
+    max-width: none;
+  }
+  .layout--twocol-section--67-33{
+    .layout__region{
+      &--first{
+        padding-right: $gutter / 2;
+      }
+      &--second{
+        padding-left: $gutter / 2;
+      }
+    }
+  }
+  .field--name-field-images{
+    margin-bottom: $gutter;
+    display: grid;
+    grid-gap: $gutterM;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .field--name-title{
+    color: $blue;
+    font-size: 24px;
+    margin-bottom: $gutterS;
+  }
+  .field--name-sku{
+    margin-bottom: $gutterS;
+  }
+  .field--name-quantity{
+    label{
+      display: block;
+      margin-bottom: $gutterS / 2;
+    }
+    input{
+      width: 100%;
+      border: 1px solid $blue;
+    }
+  }
+  .field--name-field-color{
+    line-height: 0;
+  }
+  .product--rendered-attribute__selected ~ label.option{
+    border-color: $blue;
+  }
+  .field--name-purchased-entity{
+    select{
+      width: 100%;
+    }
+    label{
+      margin-bottom: $gutterS  / 2;
+    }
+  }
+  .field--name-price{
+    display: flex;
+    align-items: center;
+    margin-bottom: $gutterM;
+    .field__label{
+      color: $blue;
+      margin-right: $gutterM;
+    }
+    .field__item{
+      font-size: 20px;
+    }
+  }
+  .field--name-field-commerce-discount,
+  .field--name-field-commerce-cover,
+  .field--name-field-commerce-clothes,
+  .field--name-field-commerce-for-who,
+  .field--name-field-commerce-collection{
+    display: flex;
+    align-items: center;
+    margin-bottom: $gutterS;
+    .field__label{
+      color: $blue;
+      font-weight: normal;
+      margin-right: $gutterS;
+      position: relative;
+      &:before{
+        position: absolute;
+        content: ":";
+        right: -6px;
+        top: calc(50% - 12px);
+      }
+    }
+    .field__item{
+      font-size: 14px;
+      a{
+        color: $black;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.commerce--clothes-teaser{
+  img{
+    max-width: none;
   }
 }
