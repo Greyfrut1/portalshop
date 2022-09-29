@@ -63,6 +63,9 @@
     }
   }
   &-teaser{
+    img{
+      border-radius: $gutterS;
+    }
     .layout__region--content{
       display: flex;
       flex-flow: row wrap;

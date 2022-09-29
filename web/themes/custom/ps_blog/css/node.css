@@ -17,6 +17,8 @@
     margin-right: 10px; }
   .node--view-mode-short .layout__region--content .field--name-field-image img, .node--view-mode-short .layout__region--content .field--name-field-images img {
     border-radius: 10px; }
+.node--view-mode-teaser img {
+  border-radius: 10px; }
 
 .view-recipe-term .view-content {
   display: grid;

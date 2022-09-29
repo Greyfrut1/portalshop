@@ -39,6 +39,8 @@
         border-radius: 50%; }
       .node--recipe-full .node__content .field--name-field-ingredients .field__items .field__item:hover:before {
         border-color: #4c84be; }
+.node--recipe-teaser img {
+  border-radius: 10px; }
 .node--recipe-teaser .layout__region--content {
   display: flex;
   flex-flow: row wrap; }

@@ -13,7 +13,7 @@
     border: 1px solid #828282; }
 
 .view-recipe .view-content .views-row {
-  width: 640px;
+  max-width: 640px;
   margin: 0 auto;
   border-bottom: 1px solid #4c84be;
   margin-bottom: 30px; }
@@ -147,6 +147,47 @@
     font-size: 20px;
     color: #4c84be;
     text-decoration: none; }
+
+.commerce--view-mode-short {
+  margin-bottom: 20px; }
+  .commerce--view-mode-short:after {
+    clear: both;
+    content: "";
+    display: table; }
+  .commerce--view-mode-short > *:not(.field-name-field-image) {
+    float: right;
+    width: calc( 100% - (100px + 20px)); }
+  .commerce--view-mode-short .field--name-field-image {
+    float: left;
+    font-size: 0;
+    margin-right: 20px;
+    width: 100px; }
+    .commerce--view-mode-short .field--name-field-image img {
+      border-radius: 10px;
+      width: auto; }
+  .commerce--view-mode-short .field--name-title a {
+    font-size: 16px;
+    color: #373737;
+    text-decoration: none;
+    margin-bottom: 10px; }
+  .commerce--view-mode-short .field--name-variations {
+    text-align: right;
+    color: #4c84be;
+    margin-top: 10px; }
+    .commerce--view-mode-short .field--name-variations > *:not(:first-child) {
+      display: none; }
+
+.cart-block--link__expand {
+  display: block;
+  background-color: #4c84be;
+  color: #fff;
+  line-height: 1.6;
+  padding: 0 20px;
+  text-decoration: none; }
+.cart-block--summary__icon {
+  margin-right: 10px; }
+  .cart-block--summary__icon img {
+    width: auto; }
 
 .commerce--clothes-full img {
   max-width: none; }

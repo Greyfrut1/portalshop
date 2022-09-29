@@ -35,6 +35,11 @@
         }
       }
     }
+    &-teaser{
+      img{
+        border-radius: $gutterS;
+      }
+    }
   }
 }
 .view-recipe-term{
